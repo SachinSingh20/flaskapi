@@ -1,0 +1,8 @@
+sudo mysql
+create database testdb;
+use testdb;
+create table userinfo ( id int, name varchar(50), address varchar(100), hobby varchar(50));
+insert into userinfo (id, name, address, hobby) values (1,'abc','bengaluru', 'music');
+insert into userinfo (id, name, address, hobby) values (2,'xyz','pune', 'painting');
+insert into userinfo (id, name, address, hobby) values (3,'pqr','delhi', 'singing');
+insert into userinfo (id, name, address, hobby) values (3,'mno','chennai', 'dancing');
